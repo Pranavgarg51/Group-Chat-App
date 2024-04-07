@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+    overflow: auto;
+   
+}
+#user{
+    font-size:10px;
+}
+#message{
+    font-size: 12px;
+}
+#time{
+    font-size:7px;
+}
+
+ div::-webkit-scrollbar{
+    width: 5px;
+}
+
+div::-webkit-scrollbar-thumb{
+    border-radius: 30px;
+    transition: cubic-bezier(0.175, 0.855, 0.32, 1.25);
+    background-color:rgb(209,208,208);
+    background-color:white; 
+}
+#title{
+    color:#86B6F6;
+   font-size:35px;
+   padding:2rem;
+   font-weight:500;
+   
+}
+
+#root{
+    background-color:black; 
+   
+}
+.chat{
+    background-color:#86B6F6;
+    width:100%;
+   
+    padding:0.2rem;
+    font-weight:400;
+    color:black;
+    font:bold;
+    border:5px solid #EEEEEE;
+    border-radius:10px;
+}
+.username{
+    background-color:#DDE6ED;
+    color:white;
+    font-weight:400;
+    color:black;
+    font:bold;
+    border:5px solid #ACB1D6;
+    border-radius:10px;
+}
+
+#status{
+    color:black;
+    background:#22C55E;
+   
+    width:100%;
+    margin-top:0;
+    padding:0;
+    border:3px solid black;
+    border-radius:5px;
+}
+#msg{
+    background-color:#FCFFE7;
+    border:1px solid pink;
+    overflow:hide;
+}
+#text{
+    background-color:#FCFFE7;
+    color:black;
+    border:3px solid black;
+    
+}
+#chatbox{
+    border:5px solid black;
+    border-radius:10px;
+    box-shadow: 8px 8px  8px grey;
+    
+}
+#send{
+    border:2px solid black;
+}
